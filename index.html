@@ -51,7 +51,7 @@
     function addDiv(feature, layer){
         if(feature.properties.district) {
             layer.bindPopup(
-                '<div class="district" id="' + feature.properties.district + '"> <h1>' + feature.properties.district + '</h1><img src="src/CENTRAL.svg" alt="Top 10 Crimes for the ' + feature.properties.district  + ' district"/></div>'
+                '<div class="district" id="' + feature.properties.district + '"> <h1>' + feature.properties.district + '</h1><img src="code/map-visuals/plots/'+feature.properties.district+'.svg" alt="Top 10 Crimes for the ' + feature.properties.district  + ' district"/></div>'
             );
         }
     }
